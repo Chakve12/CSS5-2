@@ -42,6 +42,15 @@ main {
     font-size: 16px;
     font-weight: 500;
     cursor: cell;
+    -webkit-transition: 0.6s;
+}
+
+.list-items>ul li:hover {
+    color: #8de2ff;
+}
+
+.list-items ul li:nth-child(1):hover {
+    color: #00e4ff;
 }
 
 .list-items>ul li:nth-child(1) {
@@ -61,11 +70,19 @@ main {
     justify-content: center;
 }
 
+.maintitle_wrap > div > span:hover {
+    color: #8de2ff;
+    scale: 2;
+}
+
 .maintitle_wrap>div>span {
     color: #FFF;
     font-family: Inter;
     font-size: 48px;
     font-weight: 800;
+    cursor: cell;
+    -webkit-transition: 0.6s;
+    
 }
 
 .maintitle_wrap>div {
@@ -126,15 +143,15 @@ main {
     justify-content: space-between;
     max-width: 1040px;
     width: 100%;
-    gap: 254px;
     align-items: center;
-    
+    flex-wrap: wrap;
 }
 
 .footer_card1 {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    cursor: cell;
 }
 
 .footer_card1>span {
@@ -156,6 +173,11 @@ main {
     font-weight: 500;
     list-style-type: none;
     cursor: cell;
+    -webkit-transition: 0.6s;
+}
+
+.footer_card2 ul li:hover {
+    color: #8de2ff;
 }
 
 .footer_card2 ul li:nth-child(1) {
@@ -180,6 +202,7 @@ main {
     font-size: 16px;
     font-weight: 500;
     list-style-type: none;
+    cursor: cell;
 }
 
 .footer_card3 ul li:nth-child(1) {
