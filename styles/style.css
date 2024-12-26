@@ -65,7 +65,7 @@ nav > div {
     font-size: 16px;
     font-weight: 500;
     cursor: cell;
-    -webkit-transition: 0.6s;
+    transition: 0.6s;
 }
 
 .list-items>ul li:hover {
